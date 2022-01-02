@@ -85,7 +85,7 @@ public class PlaceOrderController extends BaseController{
     }
     
     public boolean validatePhoneNumber(String phoneNumber) {
-    	// thoeun rathana 20167988
+    	// sun khemrath 20180277
     	//check the phoneNumber has 10 digits
     	if(phoneNumber.length() != 10)
     		return false;
@@ -119,7 +119,7 @@ public class PlaceOrderController extends BaseController{
     }
     
     public boolean validateAddress(String address) {
-    	// thoeun rathana 20167988
+    	// sun khemrath 20180277
     	
     	//check the address null 
     	if(address == null)
